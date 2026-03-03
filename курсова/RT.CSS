@@ -1,0 +1,130 @@
+body{
+margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(100, 70, 53);
+color: rgb(206, 168, 118);
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.heater{
+display: flex;
+justify-content: space-between;
+background-color: rgb(58, 43, 29);
+color: rgb(153, 130, 101);
+padding: 15px 40px;
+align-items: center;
+border: 35px double rgb(68, 43, 12);
+}
+
+.menu{
+display: flex;
+text-decoration: none;
+list-style: none;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.menu a{
+text-decoration: none;
+background-color: rgb(133, 106, 73);
+color: antiquewhite;
+border-radius: 25px;
+border: 6px, dotted, rgb(235, 225, 200);
+}
+
+img{
+width: 200px;
+height: 250px;
+
+}
+
+.main{
+display: flex;
+padding-left: 10;
+padding-top: 10;
+flex-grow: 1;
+flex-direction: column;
+}
+.intro{
+justify-self: center;
+margin-bottom: 20px;
+height: 100%;
+flex-direction: column;
+gap: 30px;
+color: antiquewhite;
+background-color: rgb(133, 106, 73);
+border: 25px double rgb(145, 117, 86);
+}
+
+.intro h1{
+font-size: 28px;
+
+}
+
+.intro p{
+    margin: 0;
+
+}
+
+
+.cards{
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+justify-content: center;
+}
+
+.card{
+background-color: rgb(61, 41, 15);
+border-radius: 25px;
+margin: 20px;
+width: 270px;
+box-shadow: 0 5px 7px;
+color: rgb(107, 81, 64);
+flex-direction: column;
+justify-content: space-between;
+gap: 10;
+border: 14px dotted rgb(226, 219, 202);
+}
+
+.card h3{
+font-size: 26px;
+margin: 0;
+}
+
+.card p {
+font-size: 19px;
+margin: 0;
+}
+
+.card a{
+font-size: 25px;
+text-decoration: none;
+color: rgb(214, 185, 149);
+background-color: rgb(87, 56, 38);
+border-radius: 50%;
+
+}
+
+.footer{
+background-color: rgb(121, 87, 65);
+color: rgb(238, 233, 204);
+text-align: center;
+padding: 23px;
+}
+
+@media screen and ( max-width: 650px)   {
+
+ img{
+width: 100px;
+height: 150px;
+ }
+ 
+    
+.heater{
+height: 500px;
+}
+
+}|
